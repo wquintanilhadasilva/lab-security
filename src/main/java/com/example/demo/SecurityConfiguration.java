@@ -34,7 +34,7 @@ public class SecurityConfiguration {
 
     @Bean
     public TokenResolver tokenResolver() {
-        return new DefaultTokenResolver("9SyECk96oDsTmXfogIieDI0cD/8FpnojlYSUJT5U9I/FGVmBz5oskmjOR8cbXTvoPjX+Pq/T/b1PqpHX0lYm0oCBjXWICA==");
+        return new DefaultTokenResolver("abc");
     }
 
     @Bean
